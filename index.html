@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assessoria Acadêmica com Qualidade - Aprovei.Net">
+    <meta name="keywords" content="assessoria acadêmica, TCC, monografia, dissertação, revisão, artigos científicos">
+    <meta name="author" content="Aprovei.Net">
+    <title>Atividade Prática - Aprovei.Net</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #f0642b;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 2em;
+            letter-spacing: 1px;
+        }
+        .quadro {
+            background: white;
+            margin: 30px auto;
+            padding: 30px;
+            max-width: 950px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .quadro p, .quadro ul {
+            font-size: 1.1em;
+        }
+        .quadro ul {
+            padding-left: 20px;
+        }
+        .qrcode-flutuante {
+            position: fixed;
+            right: 15px;
+            top: 30%;
+            text-align: center;
+            background-color: #fff;
+            border: 2px solid #f0642b;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            z-index: 1000;
+        }
+        .qrcode-flutuante img {
+            width: 130px;
+            margin: 10px 0;
+        }
+        .qrcode-flutuante .texto-topo {
+            font-weight: bold;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        .qrcode-flutuante .texto-rodape {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        footer {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            border-top: 1px solid #ddd;
+        }
+        footer img {
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<header>Atividade Prática de Controle Discreto</header>
+
+<div class="quadro">
+    <p>🔍 <strong>Bem-vindo ao Aprovei.Net!</strong> 🔍</p>
+    <p>Somos uma equipe especializada em assessoria para trabalhos acadêmicos, dedicada a ajudar estudantes a alcançarem seus objetivos acadêmicos com excelência. No nosso canal, você encontrará dicas valiosas, tutoriais práticos e orientações detalhadas sobre como elaborar e desenvolver trabalhos acadêmicos de alta qualidade.</p>
+
+    <p>📚 <strong>Nossos Serviços Incluem:</strong></p>
+    <ul>
+        <li>Consultoria para TCC, monografias e dissertações</li>
+        <li>Revisão e formatação de trabalhos acadêmicos</li>
+        <li>Orientação metodológica e bibliográfica</li>
+        <li>Apoio na elaboração de artigos científicos</li>
+    </ul>
+
+    <p>🌐 <strong>Contate-nos e saiba mais:</strong></p>
+    <p>📱 WhatsApp: <a href="https://wa.me/5568981049797" target="_blank">https://wa.me/5568981049797</a></p>
+    <p>🌐 Site: <a href="https://aprovei.net" target="_blank">https://aprovei.net</a></p>
+</div>
+
+<div class="quadro" id="atividade">
+    <h2>Atividade Prática de Controle Discreto</h2>
+    <!-- Aqui será inserida a descrição da atividade com base no PDF depois -->
+    
+<p><strong>Objetivo:</strong></p>
+<p>Esta atividade tem como finalidade desenvolver a capacidade de modelagem de sistemas, por meio da representação de sistemas de controle em espaço de estados. Além disso, busca-se realizar a discretização dos sistemas e a análise nos domínios da frequência, plano Z e plano W.</p>
+
+<p><strong>Materiais Utilizados:</strong></p>
+<ul>
+    <li>Software Scilab (versão 6.1.0) – disponível em: <a href="https://www.scilab.org/download/6.1.0" target="_blank">https://www.scilab.org/download/6.1.0</a></li>
+</ul>
+
+<p><strong>Instruções Gerais:</strong></p>
+<p>O aluno deverá resolver todos os itens do roteiro, organizando as respostas em formato de relatório único (PDF), contendo cálculos e códigos implementados em Scilab. A entrega deverá ser realizada via AVA, na seção TRABALHOS. A atividade é individual e depende do RU do aluno, conforme especificado no roteiro.</p>
+
+<p><strong>Parte A – Análise no Domínio da Frequência e Espaço de Estados:</strong></p>
+<ol>
+    <li>Determinar a representação em espaço de estados do circuito apresentado (x1(t) = iL(t), x2(t) = vc1(t), x3(t) = vc2(t)). Saída: Vo(t), entrada: Vi(t).</li>
+    <li>Determinar a função de transferência do sistema com base nos valores do RU (substituir 0 por 1), com C1 = RU1, L = RU3, C2 = RU6 e resistores de 1 ohm. Apresentar o código em Scilab.</li>
+    <li>Verificar a controlabilidade do sistema. Apresentar o código em Scilab.</li>
+    <li>Verificar a observabilidade do sistema. Apresentar o código em Scilab.</li>
+</ol>
+
+<p><strong>Parte B – Análise de Sistemas Discretos:</strong></p>
+<ol>
+    <li>Discretizar a representação do espaço de estados obtida na Parte A, considerando tempo de amostragem de 100 ms. Apresentar código em Scilab.</li>
+    <li>Obter a função de transferência discreta. Apresentar o código em Scilab.</li>
+    <li>Gerar o diagrama de polos e zeros e discutir a estabilidade do sistema. Apresentar o código em Scilab.</li>
+    <li>Determinar a função de transferência no plano W. Apresentar o código em Scilab.</li>
+</ol>
+
+<p><em>Bons estudos!</em></p>
+
+</div>
+
+<footer>
+    <img src="assets/logo_aprovei.png" alt="Logomarca Aprovei.Net">
+</footer>
+
+<div class="qrcode-flutuante">
+    <div class="texto-topo">📌 Precisa de ajuda pra resolver?</div>
+    <img src="assets/qrcode_whatsapp.png" alt="QR Code WhatsApp">
+    <div class="texto-rodape">📞 <a href="https://wa.me/5568981049797" target="_blank">Chama a gente!<br>68 98104 9797</a></div>
+</div>
+
+</body>
+</html>
