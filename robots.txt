@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aprovei-net-class.github.io/atividades-e-trabalhos/sitemap.xml
